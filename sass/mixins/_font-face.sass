@@ -1,0 +1,7 @@
+=font-face($name, $weight, $style, $path, $format)
+	$url: url("../fonts/#{$path}")
+	@font-face
+		font-family: $name
+		font-weight: $weight
+		font-style: $style
+		src: $url format($format)

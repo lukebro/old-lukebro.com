@@ -1,0 +1,5 @@
+mixin link(name, url, icon)
+	li.Contact__item
+		a(href=`${url}` class="Contact__link")
+			span(class=`fa fa-${icon}`)
+			| &nbsp;#{name}

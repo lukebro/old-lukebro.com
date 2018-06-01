@@ -1,0 +1,20 @@
+extends layout
+
+block content
+	.Presentation
+		.Presentation__artifact
+			.Logo
+				.Logo__image
+					img(src="/images/logo-white.svg" alt="Lukasz Brodowski icon")
+				.Logo__text Lukasz Brodowski
+		.Presentation__artifact
+			.Presentation__text
+				strong A web developer who loves his dog, coffee, and Chipotle.
+		.Presentation__artifact
+			ul.Contact
+				+link('Github', 'https://github.com/lukebro', 'github')
+				+link('Twitter', 'https://twitter.com/lukebro', 'twitter')
+				+link('Blog', 'https://medium.com/@lukebro', 'medium')
+				+link('About me', 'https://medium.com/@lukebro/about-me-e5118e4377aa', 'user-o')
+				+link('Contact', 'mailto:lukebrodowski@gmail.com', 'envelope-o')
+				+link('newheaderdaily', 'https://newheaderdaily.com', 'image')
